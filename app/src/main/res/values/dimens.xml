@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_button_height">100dp</dimen>
+    <dimen name="start_button_margin">20dp</dimen>
+    <dimen name="start_button_text_size">30dp</dimen>
+    <dimen name="start_button_margin_bottom">50dp</dimen>
+    <dimen name="step_text_size">50dp</dimen>
+    <dimen name="step_text_margin_top">50dp</dimen>
+    <dimen name="current_location_text_size">30dp</dimen>
+    <dimen name="current_location_margin_top">50dp</dimen>
+    <dimen name="distance_margin_top">30dp</dimen>
+</resources>

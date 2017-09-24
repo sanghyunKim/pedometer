@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/step_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/step_text_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/step_text_margin_top"/>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/step_text_size"
+        android:layout_marginTop="@dimen/distance_margin_top"
+        android:layout_below="@id/step_count"/>
+
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/current_location_text_size"
+        android:text="@string/current"
+        android:layout_marginTop="@dimen/current_location_margin_top"
+        android:layout_below="@id/distance"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/current_location_text_size"
+        android:layout_below="@id/distance"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/start_button_margin"
+        android:layout_marginEnd="@dimen/start_button_margin"
+        android:layout_marginBottom="@dimen/start_button_margin_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/start_button_height"
+        android:text="@string/start"
+        android:textSize="@dimen/start_button_text_size"/>
+
+</RelativeLayout>
